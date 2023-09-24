@@ -1,7 +1,7 @@
 # SOFA_24h
 Predict 24h later SOFA score using MIMIC-IV and eICU data 
 
-![Schematic](./images/schematic.png)
+![Schematic](./images/schematic_1.jpg)
 
 ## 1. Models 
 ### Temporal Convolutional Network (TCN)
@@ -39,7 +39,7 @@ If we use the naive hypothesis, under which patient SOFA scores don't change dur
 
 If we use the TCN model, we can see it predicts the rapidly changing trends (MSE: 2.54). 
 
-![h2](./images/h2.png)
+![h2](./images/h2_1.png)
 
 
 
